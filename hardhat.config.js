@@ -12,11 +12,9 @@ module.exports = {
    defaultNetwork: "volta",
    networks: {
       hardhat: {},
-      volta: {
+      sepolia: {
          url: API_URL,
-         accounts: [`0x${PRIVATE_KEY}`],
-         gas: 210000000,
-         gasPrice: 800000000000,
-      },
+         accounts: [`0x${PRIVATE_KEY}`]
+      }
    },
 }
